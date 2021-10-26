@@ -2,7 +2,7 @@ int a[] = {7, 5, -13, 5, 10, -2, 5};
 		int prev_sum = 0 , cur_sum = INT_MIN;
 		int start = 0, end = 0;
 
-		for(int i=0;i<8;i++)
+		for(int i=0;i<7;i++)
 		{
 			cur_sum += a[i];
 			if (cur_sum > prev_sum)
