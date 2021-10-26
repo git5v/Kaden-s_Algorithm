@@ -16,3 +16,5 @@ int a[] = {7, 5, -13, 5, 10, -2, 5};
 				start = i + 1;
 			}
 		}
+		cout << prev_sum << endl; //18
+		cout << start <<" "<<e nd << endl; //3 6
